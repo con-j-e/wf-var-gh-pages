@@ -47,8 +47,10 @@ const ChartRenderer = (() => {
     // Builds the footer note HTML for a given zone ID.
     function buildFooterNote(zoneId) {
         const label = ZONE_LABELS[zoneId] || zoneId;
-        return `Percentile rank is relative to maximum values in the <strong>${label} zone</strong> `
-             + `for current wildfires.`;
+        return `Values reflect magnitude relative to the highest in the <strong>${label} zone</strong> `
+        + ` for current wildfires. Differences are more visible at lower values.`
+        //return `Percentile rank is relative to maximum values in the <strong>${label} zone</strong> `
+        //     + `for current wildfires.`;
     }
 
     // Extracts a datetime string from the parsed last_updated.json payload.
