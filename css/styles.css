@@ -1,0 +1,391 @@
+:root {
+    --bg-primary:      #0f1117;
+    --bg-surface:      #1a1f2e;
+    --bg-card:         #1e2537;
+    --border:          #2d3748;
+    --border-subtle:   rgba(45, 55, 72, 0.6);
+    --text-primary:    #e2e8f0;
+    --text-secondary:  #94a3b8;
+    --text-muted:      #64748b;
+    --accent:          #f97316;
+    --chart-blue:      #3b82f6;
+    --radius:          5px;
+    --radius-lg:       9px;
+    --header-height:   56px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--chart-blue);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ── Site Header ─────────────────────────────────────────── */
+
+.site-header {
+    height: var(--header-height);
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.site-header-title h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--text-primary);
+    line-height: 1.2;
+}
+
+.site-subtitle {
+    font-size: 0.72rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 0.1rem;
+}
+
+.incident-name {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.back-nav {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+}
+.back-nav a {
+    color: var(--text-secondary);
+}
+.back-nav a:hover {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+
+/* ── Selection Panel (index.html) ───────────────────────── */
+
+.selection-panel {
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.875rem;
+    flex-wrap: wrap;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.field-group label {
+    font-size: 0.67rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+}
+
+.field-group select {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-primary);
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+    min-width: 200px;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.field-group select:focus {
+    border-color: var(--chart-blue);
+}
+
+.field-group select:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.field-group select option {
+    background-color: var(--bg-surface);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.45rem 1.1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+    white-space: nowrap;
+    align-self: flex-end;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: #ea6c0a;
+}
+
+.btn-primary:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.incident-overview-link {
+    align-self: flex-end;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    padding-bottom: 0.45rem;
+    min-height: 1.5rem;
+}
+
+
+/* ── Charts Grid (index.html) ───────────────────────────── */
+
+.charts-grid {
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    gap: 1.25rem;
+    align-items: start;
+}
+
+.charts-empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-muted);
+    padding: 5rem 1rem;
+    font-size: 0.875rem;
+    line-height: 2;
+}
+
+
+/* ── Chart Card ─────────────────────────────────────────── */
+
+.chart-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.75rem 0.875rem;
+    border-bottom: 1px solid var(--border-subtle);
+    gap: 0.5rem;
+}
+
+.chart-card-title h3 {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.chart-card-title p {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+    line-height: 1.4;
+}
+
+.chart-card-actions {
+    display: flex;
+    gap: 0.3rem;
+    flex-shrink: 0;
+}
+
+.action-btn,
+.action-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    transition: background-color 0.15s, color 0.15s;
+    color: var(--text-muted);
+}
+
+.action-link:hover,
+.action-btn:hover {
+    background-color: rgba(148, 163, 184, 0.1);
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.remove-btn:hover {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+}
+
+.canvas-wrapper {
+    padding: 0.75rem 0.5rem;
+}
+
+/* Footer note — shared across all chart contexts */
+.chart-footer-note {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    padding: 0.4rem 0.875rem;
+    border-top: 1px solid var(--border-subtle);
+    line-height: 1.55;
+}
+
+
+/* ── Quadrant Grid (incident.html) ──────────────────────── */
+
+.incident-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.quadrant-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(400px, 1fr) minmax(400px, 1fr);
+    flex: 1;
+    gap: 1px;
+    background-color: var(--border);
+}
+
+.quadrant-cell {
+    background-color: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.quadrant-header {
+    padding: 0.5rem 0.875rem;
+    border-bottom: 1px solid var(--border-subtle);
+    flex-shrink: 0;
+}
+
+.quadrant-header h3 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.quadrant-header p {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 0.1rem;
+}
+
+.quadrant-canvas-wrapper {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    padding: 0.35rem;
+}
+
+.quadrant-canvas-wrapper canvas {
+    position: absolute;
+    inset: 0.35rem;
+}
+
+
+/* ── Single Chart Page (chart.html) ─────────────────────── */
+
+.single-chart-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.single-chart-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    padding: 1rem 1.25rem;
+    gap: 0.5rem;
+}
+
+.single-chart-header h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.single-chart-header p {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+}
+
+.single-chart-header .incident-link-row {
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+}
+
+.single-canvas-wrapper {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+}
+
+.single-canvas-wrapper canvas {
+    position: absolute;
+    inset: 0;
+}
+
+
+/* ── Shared State Messages ───────────────────────────────── */
+
+.state-loading,
+.state-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 120px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.state-error {
+    color: #f87171;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK Wildfire Priority Radar Charts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-header-title">
+            <h1>AK Wildfire Priority Radar Charts</h1>
+            <p id="last-updated" class="site-subtitle"></p>
+        </div>
+    </header>
+
+    <section class="selection-panel">
+
+        <div class="field-group">
+            <label for="region-select">Region</label>
+            <select id="region-select">
+                <option value="">Filter by region…</option>
+            </select>
+        </div>
+
+        <div class="field-group">
+            <label for="incident-select">Incident</label>
+            <select id="incident-select">
+                <option value="">— Select incident —</option>
+            </select>
+        </div>
+
+        <div class="field-group">
+            <label for="zone-select">Zone</label>
+            <select id="zone-select" disabled>
+                <option value="">— Select zone —</option>
+            </select>
+        </div>
+
+        <button id="add-chart-btn" class="btn-primary" disabled>Add Chart</button>
+
+        <span id="incident-overview-link" class="incident-overview-link"></span>
+
+    </section>
+
+    <main>
+        <div id="charts-grid" class="charts-grid">
+            <div id="empty-state" class="charts-empty-state">
+                Select an incident and zone above to add a chart.<br>
+                Use the region filter to narrow incident options.<br>
+                Add multiple charts to compare them side by side.
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <script src="js/chart-renderer.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Chart</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="single-chart-layout">
+
+        <header class="site-header">
+            <div class="site-header-title">
+                <h1>AK Wildfire Priority Radar Charts</h1>
+                <p id="last-updated" class="site-subtitle"></p>
+            </div>
+            <nav class="back-nav">
+                <a href="index.html">← Chart Browser</a>
+            </nav>
+        </header>
+
+        <div id="chart-body" class="single-chart-body">
+
+            <div class="single-chart-header">
+                <h2 id="chart-title">Loading…</h2>
+                <p id="chart-subtitle"></p>
+                <p class="incident-link-row">
+                    <a id="incident-link" href="#">View all zones for this incident →</a>
+                </p>
+            </div>
+
+            <div class="single-canvas-wrapper">
+                <canvas id="chart-canvas"></canvas>
+            </div>
+
+            <p id="chart-footer" class="chart-footer-note"></p>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <script src="js/chart-renderer.js"></script>
+    <script src="js/chart-page.js"></script>
+
+</body>
+</html>
