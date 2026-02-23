@@ -1,0 +1,64 @@
+{
+    "title": "193-Marshall Mountain: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:37 AKDT",
+    "data": {
+        "Alaska Known Sites": 10.869565217391305,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 58.333333333333336
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 1,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 28777.87,
+            "metric": "area (ac)"
+        }
+    }
+}

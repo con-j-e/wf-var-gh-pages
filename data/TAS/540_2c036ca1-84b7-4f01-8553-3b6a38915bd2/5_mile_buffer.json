@@ -1,0 +1,64 @@
+{
+    "title": "540-Alcan: Reported Location + 5 Mile Buffer",
+    "subtitle": "Attributes Updated: August 31, 17:21 AKDT",
+    "data": {
+        "Alaska Known Sites": 35.18518518518518,
+        "FEMA Structures": 47.05882352941176,
+        "Native Allotments": 42.857142857142854,
+        "Communities": 44.44444444444444,
+        "Population Count": 52.94117647058824,
+        "Critical Infrastructure": 27.61904761904762,
+        "Major Roads": 16.666666666666664,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 13,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 20,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 3,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 48.77,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 38165,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 2,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 30987,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

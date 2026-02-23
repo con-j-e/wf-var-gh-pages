@@ -1,0 +1,64 @@
+{
+    "title": "545-Steelhead: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 03, 10:59 AKDT",
+    "data": {
+        "Alaska Known Sites": 15.384615384615385,
+        "FEMA Structures": 100.0,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 100.0,
+        "Critical Infrastructure": 88.19444444444444,
+        "Major Roads": 20.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": 75.0,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 1,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 460,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 401.8,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 84636,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 6,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 8219,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": 2035.83,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

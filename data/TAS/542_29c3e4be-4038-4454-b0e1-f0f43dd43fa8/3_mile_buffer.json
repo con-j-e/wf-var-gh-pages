@@ -1,0 +1,64 @@
+{
+    "title": "542-North Gravel Pit: Reported Location + 3 Mile Buffer",
+    "subtitle": "Attributes Updated: September 02, 16:04 AKDT",
+    "data": {
+        "Alaska Known Sites": 91.30434782608695,
+        "FEMA Structures": 71.42857142857143,
+        "Native Allotments": 100.0,
+        "Communities": null,
+        "Population Count": 73.33333333333333,
+        "Critical Infrastructure": null,
+        "Major Roads": 60.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 154,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 206,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 20,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 259.28,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 540,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 31650,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "title": "212-Threemile: Perimeter + 1 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:41 AKDT",
+    "data": {
+        "Alaska Known Sites": null,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": null,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

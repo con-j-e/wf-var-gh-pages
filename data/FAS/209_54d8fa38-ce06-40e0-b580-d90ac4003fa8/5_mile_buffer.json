@@ -1,0 +1,64 @@
+{
+    "title": "209-Far Mountain: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:39 AKDT",
+    "data": {
+        "Alaska Known Sites": 11.11111111111111,
+        "FEMA Structures": 17.647058823529413,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 20.588235294117645,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 16.666666666666664
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 2,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 2,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 2,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 44920.78,
+            "metric": "area (ac)"
+        }
+    }
+}

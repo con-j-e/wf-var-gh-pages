@@ -1,0 +1,64 @@
+{
+    "title": "210-Middle Fork: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:40 AKDT",
+    "data": {
+        "Alaska Known Sites": 35.18518518518518,
+        "FEMA Structures": 17.647058823529413,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 29.411764705882355,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 58.333333333333336
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 13,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 2,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 2.95,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 58090.28,
+            "metric": "area (ac)"
+        }
+    }
+}

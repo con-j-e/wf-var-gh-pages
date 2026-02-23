@@ -1,0 +1,64 @@
+{
+    "title": "233-Gilmore Trail: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 08:21 AKDT",
+    "data": {
+        "Alaska Known Sites": 34.78260869565217,
+        "FEMA Structures": 57.14285714285714,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 66.66666666666666,
+        "Critical Infrastructure": 43.91025641025641,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 25.0
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 3,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 90,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 163.35,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 51475,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 5,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 19379.09,
+            "metric": "area (ac)"
+        }
+    }
+}

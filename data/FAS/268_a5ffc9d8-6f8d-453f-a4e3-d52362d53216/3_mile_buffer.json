@@ -1,0 +1,64 @@
+{
+    "title": "268-Aggie Creek: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 08:22 AKDT",
+    "data": {
+        "Alaska Known Sites": 95.65217391304348,
+        "FEMA Structures": 39.285714285714285,
+        "Native Allotments": 18.181818181818183,
+        "Communities": null,
+        "Population Count": 40.0,
+        "Critical Infrastructure": 58.01282051282051,
+        "Major Roads": 90.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 100.0
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 157,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 13,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 1,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 5.32,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 59182,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 6,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 62336,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 123840.4,
+            "metric": "area (ac)"
+        }
+    }
+}

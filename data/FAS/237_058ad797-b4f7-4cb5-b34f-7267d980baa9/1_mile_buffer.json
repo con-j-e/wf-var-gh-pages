@@ -1,0 +1,64 @@
+{
+    "title": "237-Bear Creek: Perimeter + 1 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 26, 15:36 AKDT",
+    "data": {
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 62.5,
+        "Native Allotments": 90.0,
+        "Communities": null,
+        "Population Count": 57.14285714285714,
+        "Critical Infrastructure": null,
+        "Major Roads": 100.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 222,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 47,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 7,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 72.04,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 182856,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 50405,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

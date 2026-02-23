@@ -1,0 +1,64 @@
+{
+    "title": "549-Doogan: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 23, 16:34 AKDT",
+    "data": {
+        "Alaska Known Sites": 38.46153846153847,
+        "FEMA Structures": 87.5,
+        "Native Allotments": 30.0,
+        "Communities": 100.0,
+        "Population Count": 85.71428571428571,
+        "Critical Infrastructure": 82.63888888888889,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": 25.0,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 3,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 186,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 2,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 398.78,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 57670,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 6,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": 2019.16,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "title": "122-Oskawalik: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 30, 10:50 AKDT",
+    "data": {
+        "Alaska Known Sites": 22.22222222222222,
+        "FEMA Structures": 17.647058823529413,
+        "Native Allotments": 78.57142857142857,
+        "Communities": null,
+        "Population Count": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 7,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 2,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 13,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

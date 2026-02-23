@@ -1,0 +1,64 @@
+{
+    "title": "208-Bonnifield Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:38 AKDT",
+    "data": {
+        "Alaska Known Sites": 85.18518518518519,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 35.294117647058826,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 8.333333333333332
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 95,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 3.6,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 2,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 26196.42,
+            "metric": "area (ac)"
+        }
+    }
+}

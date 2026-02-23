@@ -1,0 +1,64 @@
+{
+    "title": "189-Billy Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 29, 08:55 AKDT",
+    "data": {
+        "Alaska Known Sites": 66.66666666666666,
+        "FEMA Structures": null,
+        "Native Allotments": 71.42857142857143,
+        "Communities": null,
+        "Population Count": null,
+        "Critical Infrastructure": 12.142857142857142,
+        "Major Roads": 25.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 30,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 11,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 1038,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 1,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 39627,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

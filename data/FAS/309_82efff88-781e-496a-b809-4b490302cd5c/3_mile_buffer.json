@@ -1,0 +1,64 @@
+{
+    "title": "309-Birch Lake: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 08:23 AKDT",
+    "data": {
+        "Alaska Known Sites": 60.86956521739131,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": 60.0,
+        "Population Count": 6.666666666666667,
+        "Critical Infrastructure": 63.46153846153847,
+        "Major Roads": 30.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": 41.66666666666667
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 9,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 0.39,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 55628,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 11,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 20091,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": 21318.45,
+            "metric": "area (ac)"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "title": "547-Lakeview Campground: Reported Location + 3 Mile Buffer",
+    "subtitle": "Attributes Updated: September 21, 19:01 AKDT",
+    "data": {
+        "Alaska Known Sites": 82.6086956521739,
+        "FEMA Structures": 39.285714285714285,
+        "Native Allotments": 90.9090909090909,
+        "Communities": null,
+        "Population Count": 53.333333333333336,
+        "Critical Infrastructure": 24.358974358974358,
+        "Major Roads": 80.0,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 17,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 13,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 15,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 49.89,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 46029,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 1,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": 34997,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

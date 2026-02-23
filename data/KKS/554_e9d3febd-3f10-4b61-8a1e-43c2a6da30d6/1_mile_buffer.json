@@ -1,0 +1,64 @@
+{
+    "title": "554-Leisure Lake: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 17, 13:21 AKDT",
+    "data": {
+        "Alaska Known Sites": 53.84615384615385,
+        "FEMA Structures": 75.0,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 71.42857142857143,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": 75.0,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 4,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 87,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 129.75,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": 21303,
+                "metric": "length (ft)"
+            },
+            {
+                "value": null,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": 2035.83,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

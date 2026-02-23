@@ -1,0 +1,64 @@
+{
+    "title": "267-Tonclonukna Creek: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 06, 12:07 AKDT",
+    "data": {
+        "Alaska Known Sites": 78.26086956521739,
+        "FEMA Structures": 28.57142857142857,
+        "Native Allotments": 54.54545454545454,
+        "Communities": 60.0,
+        "Population Count": 20.0,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null,
+        "Evacuation Zone: No Evacuation": null,
+        "Evacuation Zone: CLEAR": null
+    },
+    "raw": {
+        "Alaska Known Sites": {
+            "value": 15,
+            "metric": "structures"
+        },
+        "FEMA Structures": {
+            "value": 12,
+            "metric": "structures"
+        },
+        "Native Allotments": {
+            "value": 3,
+            "metric": "allotments"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community locations"
+        },
+        "Population Count": {
+            "value": 1.92,
+            "metric": "est. population"
+        },
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "length (ft)"
+            },
+            {
+                "value": 1,
+                "metric": "locations"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "length (ft)"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "Evacuation Zone: No Evacuation": {
+            "value": null,
+            "metric": "area (ac)"
+        },
+        "Evacuation Zone: CLEAR": {
+            "value": null,
+            "metric": "area (ac)"
+        }
+    }
+}

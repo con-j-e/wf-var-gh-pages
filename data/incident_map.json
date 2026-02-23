@@ -1,0 +1,44 @@
+{
+    "CRS": {
+        "274-Fish Lake": "274_a7477ee8-0956-4e93-8428-6e7252e3b284",
+        "294-East Gakona River": "294_78387354-48fb-4098-8e45-ce30411a50e5"
+    },
+    "FAS": {
+        "120-McAdams Creek Coal Seam": "120_a596d6d7-ed7c-489e-b6d7-ba217e1df42b",
+        "188-Boulder Creek": "188_f16b1251-a81f-41dd-b8e0-7b3df91c12a4",
+        "193-Marshall Mountain": "193_2e98aeea-1558-4b8c-96a9-3c7ceb1a6a17",
+        "197-Salcha River": "197_eb4b2416-8be7-4afb-9700-bbd36d052f31",
+        "206-Ricks Creek": "206_647efead-4ae6-4ad1-90c2-41fdd61bd4b1",
+        "208-Bonnifield Creek": "208_850aaf3d-6bf6-4d5d-8bc4-6da0ec8a4629",
+        "209-Far Mountain": "209_54d8fa38-ce06-40e0-b580-d90ac4003fa8",
+        "210-Middle Fork": "210_1cc00847-7e4e-447e-87ea-6bcf151561e0",
+        "212-Threemile": "212_438f678c-199d-4242-bc4d-d5c8b5c52899",
+        "233-Gilmore Trail": "233_fe7c055c-5fcf-4bb7-967a-98700ff4d538",
+        "237-Bear Creek": "237_058ad797-b4f7-4cb5-b34f-7267d980baa9",
+        "268-Aggie Creek": "268_a5ffc9d8-6f8d-453f-a4e3-d52362d53216",
+        "309-Birch Lake": "309_82efff88-781e-496a-b809-4b490302cd5c",
+        "319-Monte Cristo Creek": "319_6cb8bd07-b9c0-4e03-9f8e-fe982d5cf21e",
+        "451-Camp": "451_6a769761-3d73-4806-be60-d0058ec38d59"
+    },
+    "KKS": {
+        "545-Steelhead": "545_058ff385-e458-46e8-8918-25bb17d944dd",
+        "548-Green Tree": "548_1410d4a1-4c85-497c-aa53-178ca20045a1",
+        "549-Doogan": "549_90172341-db08-4955-bd0c-8ba696a81be8",
+        "554-Leisure Lake": "554_e9d3febd-3f10-4b61-8a1e-43c2a6da30d6"
+    },
+    "SWS": {
+        "122-Oskawalik": "122_ff3bd370-8277-427a-b114-4879476bcd5d",
+        "267-Tonclonukna Creek": "267_b8dfe31b-1bbb-4d81-be50-13c70984d14e"
+    },
+    "TAS": {
+        "189-Billy Creek": "189_cbb0c269-b45b-4901-a8d4-d09cde96b650",
+        "275-Ladue River": "275_0bf42287-6e2f-4d4a-96d2-aa60fb7f2e35",
+        "276-River Trail": "276_b8231b52-70ea-48b6-bb87-ed50ad6d58f6",
+        "278-Ridgeline": "278_58a121fb-f568-4c09-886a-f6d122b5d565",
+        "281-McArthur Creek": "281_42d42470-23c1-428e-a1a4-ad76a8788dcf",
+        "282-Lake Mansfield": "282_da590bea-7bf5-4777-b2c7-798759a6bedb",
+        "540-Alcan": "540_2c036ca1-84b7-4f01-8553-3b6a38915bd2",
+        "542-North Gravel Pit": "542_29c3e4be-4038-4454-b0e1-f0f43dd43fa8",
+        "547-Lakeview Campground": "547_1a77ffca-8878-45e3-a822-2b3c38fc675a"
+    }
+}
