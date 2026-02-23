@@ -2,16 +2,16 @@
     "title": "210-Middle Fork: Perimeter + 5 Mile Buffer",
     "subtitle": "Perimeter Updated: September 19, 13:40 AKDT",
     "data": {
-        "Alaska Known Sites": 35.18518518518518,
-        "FEMA Structures": 17.647058823529413,
+        "Alaska Known Sites": 41.117283855881496,
+        "FEMA Structures": 13.289645849933024,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 29.411764705882355,
+        "Population Count": 16.4779307271582,
         "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null,
         "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": 58.333333333333336
+        "Evacuation Zone: CLEAR": 90.70920986550433
     },
     "raw": {
         "Alaska Known Sites": {

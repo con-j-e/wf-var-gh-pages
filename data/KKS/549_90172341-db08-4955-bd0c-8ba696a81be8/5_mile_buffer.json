@@ -2,15 +2,15 @@
     "title": "549-Doogan: Reported Location + 5 Mile Buffer",
     "subtitle": "Attributes Updated: September 23, 16:34 AKDT",
     "data": {
-        "Alaska Known Sites": 81.48148148148148,
-        "FEMA Structures": 82.35294117647058,
-        "Native Allotments": 92.85714285714286,
-        "Communities": 44.44444444444444,
-        "Population Count": 94.11764705882352,
-        "Critical Infrastructure": 96.42857142857143,
+        "Alaska Known Sites": 69.2178039241125,
+        "FEMA Structures": 90.7053047023849,
+        "Native Allotments": 98.211919869119,
+        "Communities": 63.09297535714574,
+        "Population Count": 98.93845826076874,
+        "Critical Infrastructure": 99.8418279654511,
         "Major Roads": null,
         "Road Closures": null,
-        "Evacuation Zone: No Evacuation": 25.0,
+        "Evacuation Zone: No Evacuation": 96.58271819391283,
         "Evacuation Zone: CLEAR": null
     },
     "raw": {

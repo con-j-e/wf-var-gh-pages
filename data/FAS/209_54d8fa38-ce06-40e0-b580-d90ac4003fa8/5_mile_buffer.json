@@ -2,16 +2,16 @@
     "title": "209-Far Mountain: Perimeter + 5 Mile Buffer",
     "subtitle": "Perimeter Updated: September 19, 13:39 AKDT",
     "data": {
-        "Alaska Known Sites": 11.11111111111111,
-        "FEMA Structures": 17.647058823529413,
+        "Alaska Known Sites": 17.116700275439563,
+        "FEMA Structures": 13.289645849933024,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 20.588235294117645,
+        "Population Count": 13.178024233372929,
         "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null,
         "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": 16.666666666666664
+        "Evacuation Zone: CLEAR": 88.5833053122554
     },
     "raw": {
         "Alaska Known Sites": {

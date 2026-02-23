@@ -2,16 +2,16 @@
     "title": "193-Marshall Mountain: Perimeter + 5 Mile Buffer",
     "subtitle": "Perimeter Updated: September 19, 13:37 AKDT",
     "data": {
-        "Alaska Known Sites": 46.2962962962963,
-        "FEMA Structures": 5.88235294117647,
+        "Alaska Known Sites": 42.19221294102377,
+        "FEMA Structures": 8.384832981150184,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 20.588235294117645,
+        "Population Count": 13.178024233372929,
         "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null,
         "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": 66.66666666666666
+        "Evacuation Zone: CLEAR": 91.93274575198518
     },
     "raw": {
         "Alaska Known Sites": {

@@ -2,16 +2,16 @@
     "title": "233-Gilmore Trail: Perimeter + 3 Mile Buffer",
     "subtitle": "Perimeter Updated: September 22, 08:21 AKDT",
     "data": {
-        "Alaska Known Sites": 34.78260869565217,
-        "FEMA Structures": 57.14285714285714,
+        "Alaska Known Sites": 22.80973946166309,
+        "FEMA Structures": 58.87315248849204,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 66.66666666666666,
-        "Critical Infrastructure": 43.91025641025641,
+        "Population Count": 67.22557305045888,
+        "Critical Infrastructure": 66.74214522435702,
         "Major Roads": null,
         "Road Closures": null,
         "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": 25.0
+        "Evacuation Zone: CLEAR": 84.18356016694388
     },
     "raw": {
         "Alaska Known Sites": {

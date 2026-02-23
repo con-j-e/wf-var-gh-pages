@@ -2,15 +2,15 @@
     "title": "548-Green Tree: Reported Location + 3 Mile Buffer",
     "subtitle": "Attributes Updated: September 23, 12:04 AKDT",
     "data": {
-        "Alaska Known Sites": 67.3913043478261,
-        "FEMA Structures": 78.57142857142857,
+        "Alaska Known Sites": 40.88603031064088,
+        "FEMA Structures": 87.51815754716901,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 80.0,
-        "Critical Infrastructure": 62.17948717948717,
-        "Major Roads": 50.0,
+        "Population Count": 94.29188295211229,
+        "Critical Infrastructure": 75.59843224412003,
+        "Major Roads": 89.40975465021602,
         "Road Closures": null,
-        "Evacuation Zone: No Evacuation": 50.0,
+        "Evacuation Zone: No Evacuation": 99.98553022559484,
         "Evacuation Zone: CLEAR": null
     },
     "raw": {

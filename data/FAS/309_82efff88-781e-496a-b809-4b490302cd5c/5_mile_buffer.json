@@ -2,16 +2,16 @@
     "title": "309-Birch Lake: Perimeter + 5 Mile Buffer",
     "subtitle": "Perimeter Updated: September 22, 08:23 AKDT",
     "data": {
-        "Alaska Known Sites": 88.88888888888889,
-        "FEMA Structures": 58.82352941176471,
+        "Alaska Known Sites": 74.84805075254762,
+        "FEMA Structures": 41.54010861842442,
         "Native Allotments": null,
-        "Communities": 44.44444444444444,
-        "Population Count": 47.05882352941176,
-        "Critical Infrastructure": 61.9047619047619,
-        "Major Roads": 41.66666666666667,
+        "Communities": 63.09297535714574,
+        "Population Count": 37.27222775424111,
+        "Critical Infrastructure": 74.4467145994231,
+        "Major Roads": 92.37472488001073,
         "Road Closures": null,
         "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": 41.66666666666667
+        "Evacuation Zone: CLEAR": 90.09213445975631
     },
     "raw": {
         "Alaska Known Sites": {

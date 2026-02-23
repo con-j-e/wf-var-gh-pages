@@ -2,15 +2,15 @@
     "title": "554-Leisure Lake: Reported Location + 3 Mile Buffer",
     "subtitle": "Attributes Updated: September 17, 13:21 AKDT",
     "data": {
-        "Alaska Known Sites": 67.3913043478261,
-        "FEMA Structures": 85.71428571428571,
+        "Alaska Known Sites": 40.88603031064088,
+        "FEMA Structures": 88.72282144069491,
         "Native Allotments": null,
         "Communities": null,
-        "Population Count": 86.66666666666667,
-        "Critical Infrastructure": 75.96153846153847,
-        "Major Roads": 40.0,
+        "Population Count": 95.85216421712713,
+        "Critical Infrastructure": 83.4228470880316,
+        "Major Roads": 88.79928852599241,
         "Road Closures": null,
-        "Evacuation Zone: No Evacuation": 75.0,
+        "Evacuation Zone: No Evacuation": 99.99714589719221,
         "Evacuation Zone: CLEAR": null
     },
     "raw": {
