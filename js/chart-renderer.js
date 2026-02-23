@@ -47,7 +47,7 @@ const ChartRenderer = (() => {
     // Builds the footer note HTML for a given zone ID.
     function buildFooterNote(zoneId) {
         const label = ZONE_LABELS[zoneId] || zoneId;
-        return `Percentages are relative to maximum values in the <strong>${label} zone</strong> `
+        return `Percentile rank is relative to maximum values in the <strong>${label} zone</strong> `
              + `for current wildfires.`;
     }
 
