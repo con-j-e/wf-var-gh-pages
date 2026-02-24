@@ -48,7 +48,7 @@ const ChartRenderer = (() => {
     function buildFooterNote(zoneId) {
         const label = ZONE_LABELS[zoneId] || zoneId;
         return `Scores are <a href="https://www.mathsisfun.com/definitions/logarithmic-scale.html" `
-            + `target="_blank" rel="noopener noreferrer">log-scaled</a> relative to a maximum in the `
+            + `target="_blank" rel="noopener noreferrer">log-scaled</a> per axis, relative to the highest value in the `
             + `<strong>${label} zone</strong> for current wildfires.`;
     }
 
