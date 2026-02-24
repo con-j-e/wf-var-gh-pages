@@ -12,12 +12,12 @@
  * Raw value display
  * -----------------
  * When the JSON payload includes a "raw" key alongside "data", tooltips show
- * the pre-rank abstracted value and its metric description next to the
- * percentile rank. Each raw entry is a {value, metric} object. Composite
- * labels (e.g. Critical Infrastructure) use an array of {value, metric}
- * objects. Metric descriptions are provided by the Python backend via the
- * LABEL_METRICS configuration — this module contains no domain-specific
- * unit or label knowledge.
+ * the pre-normalization abstracted value and its metric description next to
+ * the log-normalized score. Each raw entry is a {value, metric} object.
+ * Composite labels (e.g. Critical Infrastructure) use an array of
+ * {value, metric} objects. Metric descriptions are provided by the Python
+ * backend via the LABEL_METRICS configuration — this module contains no
+ * domain-specific unit or label knowledge.
  */
 const ChartRenderer = (() => {
 
@@ -47,10 +47,9 @@ const ChartRenderer = (() => {
     // Builds the footer note HTML for a given zone ID.
     function buildFooterNote(zoneId) {
         const label = ZONE_LABELS[zoneId] || zoneId;
-        return `Values reflect magnitude relative to the highest in the <strong>${label} zone</strong> `
-        + ` for current wildfires. Differences are more visible at lower values.`
-        //return `Percentile rank is relative to maximum values in the <strong>${label} zone</strong> `
-        //     + `for current wildfires.`;
+        return `Values are <a href="https://www.mathsisfun.com/definitions/logarithmic-scale.html" `
+            + `target="_blank" rel="noopener noreferrer">log-scaled</a> relative to a maximum in the `
+            + `<strong>${label} zone</strong> for current wildfires.`;
     }
 
     // Extracts a datetime string from the parsed last_updated.json payload.
@@ -109,33 +108,33 @@ const ChartRenderer = (() => {
      * of such objects (composite metrics). The metric descriptions come from the
      * Python backend — this function applies no domain-specific logic.
      *
-     * @param {string}  label     - The chart axis label
-     * @param {number}  rankValue - The percentile-ranked value (0-100)
-     * @param {boolean} isNull    - Whether the ranked value was originally null
+     * @param {string}  label      - The chart axis label
+     * @param {number}  scoreValue - The log-normalized score (0-100)
+     * @param {boolean} isNull     - Whether the value was originally null
      * @param {Object|null} rawData - The full raw dict from the chart JSON (nullable)
      * @returns {string} Formatted tooltip line
      */
-    function buildTooltipLabel(label, rankValue, isNull, rawData) {
+    function buildTooltipLabel(label, scoreValue, isNull, rawData) {
         if (isNull) return 'No data available';
 
-        const rankStr = `${rankValue.toFixed(1)}%`;
+        const scoreStr = scoreValue.toFixed(1);
 
-        if (!rawData || !(label in rawData)) return rankStr;
+        if (!rawData || !(label in rawData)) return scoreStr;
 
         const rawEntry = rawData[label];
-        if (rawEntry === null || rawEntry === undefined) return rankStr;
+        if (rawEntry === null || rawEntry === undefined) return scoreStr;
 
         // Array of sub-values (composite metrics).
         if (Array.isArray(rawEntry)) {
             const parts = rawEntry.map(formatRawEntry).filter(Boolean);
             return parts.length > 0
-                ? `${rankStr} (${parts.join(' | ')})`
-                : rankStr;
+                ? `${scoreStr} (${parts.join(' | ')})`
+                : scoreStr;
         }
 
         // Single {value, metric} object.
         const formatted = formatRawEntry(rawEntry);
-        return formatted ? `${rankStr} (${formatted})` : rankStr;
+        return formatted ? `${scoreStr} (${formatted})` : scoreStr;
     }
 
     // Draws a filled polygon at the value-0 ring before datasets are rendered.
@@ -171,14 +170,14 @@ const ChartRenderer = (() => {
      * @returns {Chart} the Chart.js instance
      */
     function render(canvas, chartData, { maintainAspectRatio = true } = {}) {
-        const labels     = Object.keys(chartData.data);
-        const rankValues = Object.values(chartData.data);
-        const rawData    = chartData.raw || null;
-        const nullFlags  = rankValues.map(v => v === null);
+        const labels      = Object.keys(chartData.data);
+        const scoreValues = Object.values(chartData.data);
+        const rawData     = chartData.raw || null;
+        const nullFlags   = scoreValues.map(v => v === null);
 
         // Null values render at origin (0) so the polygon stays closed.
         // pointRadius = 0 hides the dot, making null visually distinct from an actual 0 value.
-        const displayValues   = rankValues.map(v => v === null ? 0 : v);
+        const displayValues   = scoreValues.map(v => v === null ? 0 : v);
         const pointColors     = nullFlags.map(n => n ? 'transparent' : COLOR_DATA_POINT);
         const pointRadii      = nullFlags.map(n => n ? 0 : 4);
         const pointHoverRadii = nullFlags.map(n => n ? 0 : 6);
@@ -214,7 +213,7 @@ const ChartRenderer = (() => {
                                 const i = item.dataIndex;
                                 return buildTooltipLabel(
                                     labels[i],
-                                    rankValues[i],
+                                    scoreValues[i],
                                     nullFlags[i],
                                     rawData,
                                 );
@@ -231,7 +230,7 @@ const ChartRenderer = (() => {
                             color:         COLOR_TICK,
                             backdropColor: 'transparent',
                             font:          { size: 9 },
-                            callback:      v => v < 0 ? '' : `${v}%`,
+                            callback:      v => v < 0 ? '' : `${v}`,
                         },
                         grid: { color: ctx => ctx.tick.value < 0 ? 'transparent' : COLOR_GRID },
                         angleLines: { color: COLOR_ANGLE_LINE },
