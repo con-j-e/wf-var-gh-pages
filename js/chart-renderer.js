@@ -121,7 +121,7 @@ const ChartRenderer = (() => {
     function buildTooltipLabel(label, scoreValue, isNull, rawData) {
         if (isNull) return 'No data available';
 
-        const scoreLine = `Score: ${scoreValue.toFixed(1)} / 100`;
+        const scoreLine = `• Score: ${scoreValue.toFixed(1)} / 100`;
 
         if (!rawData || !(label in rawData)) return scoreLine;
 
@@ -132,13 +132,13 @@ const ChartRenderer = (() => {
         if (Array.isArray(rawEntry)) {
             const parts = rawEntry.map(formatRawEntry).filter(Boolean);
             return parts.length > 0
-                ? [parts.join(' | '), scoreLine]
+                ? [`• ${parts.join(' | ')}`, scoreLine]
                 : scoreLine;
         }
 
         // Single {value, metric} object.
         const formatted = formatRawEntry(rawEntry);
-        return formatted ? [formatted, scoreLine] : scoreLine;
+        return formatted ? [`• ${formatted}`, scoreLine] : scoreLine;
     }
 
     // Draws a filled polygon at the value-0 ring before datasets are rendered.
@@ -211,6 +211,7 @@ const ChartRenderer = (() => {
                 plugins: {
                     legend: { display: false },
                     tooltip: {
+                        displayColors: false,
                         callbacks: {
                             title: items  => labels[items[0].dataIndex],
                             label: item   => {
