@@ -47,7 +47,7 @@ const ChartRenderer = (() => {
     // Builds the footer note HTML for a given zone ID.
     function buildFooterNote(zoneId) {
         const label = ZONE_LABELS[zoneId] || zoneId;
-        return `Values are <a href="https://www.mathsisfun.com/definitions/logarithmic-scale.html" `
+        return `Scores are <a href="https://www.mathsisfun.com/definitions/logarithmic-scale.html" `
             + `target="_blank" rel="noopener noreferrer">log-scaled</a> relative to a maximum in the `
             + `<strong>${label} zone</strong> for current wildfires.`;
     }
@@ -101,8 +101,12 @@ const ChartRenderer = (() => {
     }
 
     /**
-     * Build the tooltip text for a single data point, incorporating the raw
-     * abstracted value when available.
+     * Build the tooltip text for a single data point.
+     *
+     * When raw data is available the tooltip is multi-line: the first line shows
+     * the pre-normalization value with its metric, the second shows the
+     * log-normalized score out of 100. When raw data is unavailable, a single
+     * "Score: X / 100" line is returned.
      *
      * Raw entries are either {value, metric} objects (simple metrics) or arrays
      * of such objects (composite metrics). The metric descriptions come from the
@@ -112,29 +116,29 @@ const ChartRenderer = (() => {
      * @param {number}  scoreValue - The log-normalized score (0-100)
      * @param {boolean} isNull     - Whether the value was originally null
      * @param {Object|null} rawData - The full raw dict from the chart JSON (nullable)
-     * @returns {string} Formatted tooltip line
+     * @returns {string|string[]} Single line or multi-line array for Chart.js tooltip
      */
     function buildTooltipLabel(label, scoreValue, isNull, rawData) {
         if (isNull) return 'No data available';
 
-        const scoreStr = scoreValue.toFixed(1);
+        const scoreLine = `Score: ${scoreValue.toFixed(1)} / 100`;
 
-        if (!rawData || !(label in rawData)) return scoreStr;
+        if (!rawData || !(label in rawData)) return scoreLine;
 
         const rawEntry = rawData[label];
-        if (rawEntry === null || rawEntry === undefined) return scoreStr;
+        if (rawEntry === null || rawEntry === undefined) return scoreLine;
 
         // Array of sub-values (composite metrics).
         if (Array.isArray(rawEntry)) {
             const parts = rawEntry.map(formatRawEntry).filter(Boolean);
             return parts.length > 0
-                ? `${scoreStr} (${parts.join(' | ')})`
-                : scoreStr;
+                ? [parts.join(' | '), scoreLine]
+                : scoreLine;
         }
 
         // Single {value, metric} object.
         const formatted = formatRawEntry(rawEntry);
-        return formatted ? `${scoreStr} (${formatted})` : scoreStr;
+        return formatted ? [formatted, scoreLine] : scoreLine;
     }
 
     // Draws a filled polygon at the value-0 ring before datasets are rendered.
