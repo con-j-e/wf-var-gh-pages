@@ -28,25 +28,25 @@
         },
         "Communities": {
             "value": 2,
-            "metric": "community locations"
+            "metric": "community coordinate locations"
         },
         "Population Count": {
             "value": 3730.4,
-            "metric": "est. population"
+            "metric": "people"
         },
         "Critical Infrastructure": [
             {
                 "value": 931613,
-                "metric": "length (ft)"
+                "metric": "feet"
             },
             {
                 "value": 50,
-                "metric": "locations"
+                "metric": "features"
             }
         ],
         "Major Roads": {
             "value": 54185,
-            "metric": "length (ft)"
+            "metric": "feet"
         },
         "Road Closures": {
             "value": null,
@@ -54,11 +54,11 @@
         },
         "Evacuation Zone: No Evacuation": {
             "value": 48884.06,
-            "metric": "area (ac)"
+            "metric": "acres"
         },
         "Evacuation Zone: CLEAR": {
             "value": null,
-            "metric": "area (ac)"
+            "metric": "acres"
         }
     }
 }
