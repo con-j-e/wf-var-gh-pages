@@ -1,64 +1,54 @@
 {
-    "title": "545-Steelhead: Reported Location + 3 Mile Buffer",
-    "subtitle": "Attributes Updated: September 03, 10:59 AKDT",
+    "title": "545-Hope South: Reported Location + 3 Mile Buffer",
+    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
     "data": {
-        "Alaska Known Sites": 34.214609192494635,
-        "FEMA Structures": 100.0,
-        "Native Allotments": 22.767024869695298,
+        "Alaska Known Sites": 36.07794814032545,
+        "FEMA Structures": 28.66446555001863,
+        "Native Allotments": null,
         "Communities": 100.0,
-        "Population Count": 100.0,
-        "Critical Infrastructure": 91.40858965483326,
-        "Major Roads": 90.47701056536526,
-        "Road Closures": null,
-        "Evacuation Zone: No Evacuation": 100.0,
-        "Evacuation Zone: CLEAR": null
+        "Population Count": 83.58981631345603,
+        "Critical Infrastructure": 98.208195061862,
+        "Major Roads": null,
+        "Road Closures": null
     },
     "raw": {
-        "Alaska Known Sites": {
-            "value": 7,
-            "metric": "structures"
-        },
-        "FEMA Structures": {
-            "value": 2125,
-            "metric": "structures"
-        },
-        "Native Allotments": {
-            "value": 1,
-            "metric": "allotments"
-        },
-        "Communities": {
-            "value": 1,
-            "metric": "community coordinate locations"
-        },
-        "Population Count": {
-            "value": 1976.07,
-            "metric": "people"
-        },
         "Critical Infrastructure": [
             {
-                "value": 468394,
+                "value": 66844,
                 "metric": "feet"
             },
             {
-                "value": 18,
+                "value": 9,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 31875,
+            "value": null,
             "metric": "feet"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 88.43,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "coordinate locations"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
-        "Evacuation Zone: No Evacuation": {
-            "value": 18151.56,
-            "metric": "acres"
+        "FEMA Structures": {
+            "value": 3,
+            "metric": "structures"
         },
-        "Evacuation Zone: CLEAR": {
-            "value": null,
-            "metric": "acres"
+        "Alaska Known Sites": {
+            "value": 6,
+            "metric": "structures"
         }
     }
 }

@@ -1,46 +1,24 @@
 {
-    "title": "540-Alcan: Reported Location + 1 Mile Buffer",
-    "subtitle": "Attributes Updated: August 31, 17:21 AKDT",
+    "title": "540-Cantwell 1: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
     "data": {
-        "Alaska Known Sites": null,
-        "FEMA Structures": null,
-        "Native Allotments": null,
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 100.0,
+        "Native Allotments": 100.0,
         "Communities": null,
-        "Population Count": null,
-        "Critical Infrastructure": null,
+        "Population Count": 100.0,
+        "Critical Infrastructure": 61.57547649111447,
         "Major Roads": null,
-        "Road Closures": null,
-        "Evacuation Zone: No Evacuation": null,
-        "Evacuation Zone: CLEAR": null
+        "Road Closures": null
     },
     "raw": {
-        "Alaska Known Sites": {
-            "value": null,
-            "metric": "structures"
-        },
-        "FEMA Structures": {
-            "value": null,
-            "metric": "structures"
-        },
-        "Native Allotments": {
-            "value": null,
-            "metric": "allotments"
-        },
-        "Communities": {
-            "value": null,
-            "metric": "community coordinate locations"
-        },
-        "Population Count": {
-            "value": null,
-            "metric": "people"
-        },
         "Critical Infrastructure": [
             {
-                "value": 7399,
+                "value": 6351,
                 "metric": "feet"
             },
             {
-                "value": null,
+                "value": 1,
                 "metric": "features"
             }
         ],
@@ -48,17 +26,29 @@
             "value": null,
             "metric": "feet"
         },
+        "Native Allotments": {
+            "value": 4,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 44.33,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "coordinate locations"
+        },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
-        "Evacuation Zone: No Evacuation": {
-            "value": null,
-            "metric": "acres"
+        "FEMA Structures": {
+            "value": 19,
+            "metric": "structures"
         },
-        "Evacuation Zone: CLEAR": {
-            "value": null,
-            "metric": "acres"
+        "Alaska Known Sites": {
+            "value": 54,
+            "metric": "structures"
         }
     }
 }

@@ -1,64 +1,54 @@
 {
-    "title": "554-Leisure Lake: Reported Location + 3 Mile Buffer",
-    "subtitle": "Attributes Updated: September 17, 13:21 AKDT",
+    "title": "554-Hope North: Reported Location + 3 Mile Buffer",
+    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
     "data": {
-        "Alaska Known Sites": 40.88603031064088,
-        "FEMA Structures": 88.72282144069491,
+        "Alaska Known Sites": 33.21993322360195,
+        "FEMA Structures": 28.66446555001863,
         "Native Allotments": null,
-        "Communities": null,
-        "Population Count": 95.85216421712713,
-        "Critical Infrastructure": 83.4228470880316,
-        "Major Roads": 88.79928852599241,
-        "Road Closures": null,
-        "Evacuation Zone: No Evacuation": 99.99714589719221,
-        "Evacuation Zone: CLEAR": null
+        "Communities": 100.0,
+        "Population Count": 83.58981631345603,
+        "Critical Infrastructure": 98.208195061862,
+        "Major Roads": null,
+        "Road Closures": null
     },
     "raw": {
-        "Alaska Known Sites": {
-            "value": 11,
-            "metric": "structures"
-        },
-        "FEMA Structures": {
-            "value": 895,
-            "metric": "structures"
+        "Critical Infrastructure": [
+            {
+                "value": 66844,
+                "metric": "feet"
+            },
+            {
+                "value": 9,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
         },
         "Native Allotments": {
             "value": null,
             "metric": "allotments"
         },
-        "Communities": {
-            "value": null,
-            "metric": "community coordinate locations"
-        },
         "Population Count": {
-            "value": 1442.14,
+            "value": 88.43,
             "metric": "people"
         },
-        "Critical Infrastructure": [
-            {
-                "value": 314675,
-                "metric": "feet"
-            },
-            {
-                "value": 11,
-                "metric": "features"
-            }
-        ],
-        "Major Roads": {
-            "value": 26299,
-            "metric": "feet"
+        "Communities": {
+            "value": 1,
+            "metric": "coordinate locations"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
-        "Evacuation Zone: No Evacuation": {
-            "value": 18146.48,
-            "metric": "acres"
+        "FEMA Structures": {
+            "value": 3,
+            "metric": "structures"
         },
-        "Evacuation Zone: CLEAR": {
-            "value": null,
-            "metric": "acres"
+        "Alaska Known Sites": {
+            "value": 5,
+            "metric": "structures"
         }
     }
 }
