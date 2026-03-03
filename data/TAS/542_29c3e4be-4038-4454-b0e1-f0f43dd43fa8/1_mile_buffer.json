@@ -1,30 +1,30 @@
 {
-    "title": "195-Quail: Perimeter + 5 Mile Buffer",
-    "subtitle": "Perimeter Updated: September 02, 09:27 AKDT",
+    "title": "542-North Gravel Pit: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 02, 16:04 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": null,
-        "Native Allotments": null,
-        "Communities": 63.09297535714574,
-        "Population Count": null,
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 56.505967467039554,
+        "Native Allotments": 100.0,
+        "Communities": 100.0,
+        "Population Count": 56.58985173628055,
         "Timber Value": null,
         "Critical Infrastructure": null,
-        "Major Roads": null,
+        "Major Roads": 94.81499456693115,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": null,
+                "value": 540,
                 "metric": "feet"
             },
             {
-                "value": 1,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 10382,
             "metric": "feet"
         },
         "Timber Value": {
@@ -32,15 +32,15 @@
             "metric": "$"
         },
         "Native Allotments": {
-            "value": null,
+            "value": 7,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": null,
+            "value": 28.8,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
+            "value": 2,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 31,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 1,
+            "value": 19,
             "metric": "structures"
         }
     }

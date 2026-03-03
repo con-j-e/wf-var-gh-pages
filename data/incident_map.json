@@ -1,10 +1,20 @@
 {
+    "KKS": {
+        "545-Steelhead": "545_058ff385-e458-46e8-8918-25bb17d944dd"
+    },
+    "SWS": {
+        "267-Tonclonukna Creek": "267_b8dfe31b-1bbb-4d81-be50-13c70984d14e"
+    },
     "TAD": {
         "195-Quail": "195_7f191dc9-ecba-45c4-b71f-0a49ab9cff10",
         "227-Nowitna": "227_27983e04-8cb3-475f-adf3-89b382cbaf7c"
     },
     "TAS": {
-        "540-Alcan": "540_2c036ca1-84b7-4f01-8553-3b6a38915bd2"
+        "540-Alcan": "540_2c036ca1-84b7-4f01-8553-3b6a38915bd2",
+        "542-North Gravel Pit": "542_29c3e4be-4038-4454-b0e1-f0f43dd43fa8"
+    },
+    "TNF": {
+        "544-6.5 Mile": "544_9e4c0144-d81f-40fa-a032-94742c53ff26"
     },
     "UYD": {
         "355-Fortymile": "355_0a0cb034-d2c1-4386-8638-97f0b9b31f7d",

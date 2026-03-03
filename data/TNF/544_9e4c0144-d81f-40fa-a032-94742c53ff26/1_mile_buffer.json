@@ -1,15 +1,15 @@
 {
-    "title": "195-Quail: Perimeter + 5 Mile Buffer",
-    "subtitle": "Perimeter Updated: September 02, 09:27 AKDT",
+    "title": "544-6.5 Mile: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 02, 16:13 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": null,
+        "Alaska Known Sites": null,
+        "FEMA Structures": 46.19320846608495,
         "Native Allotments": null,
         "Communities": 63.09297535714574,
-        "Population Count": null,
+        "Population Count": 44.69531172812234,
         "Timber Value": null,
         "Critical Infrastructure": null,
-        "Major Roads": null,
+        "Major Roads": 100.0,
         "Road Closures": null
     },
     "raw": {
@@ -19,12 +19,12 @@
                 "metric": "feet"
             },
             {
-                "value": 1,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 17216,
             "metric": "feet"
         },
         "Timber Value": {
@@ -36,7 +36,7 @@
             "metric": "allotments"
         },
         "Population Count": {
-            "value": null,
+            "value": 13.6,
             "metric": "people"
         },
         "Communities": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 16,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 1,
+            "value": null,
             "metric": "structures"
         }
     }

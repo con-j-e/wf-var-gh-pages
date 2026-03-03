@@ -1,12 +1,12 @@
 {
-    "title": "195-Quail: Perimeter + 5 Mile Buffer",
-    "subtitle": "Perimeter Updated: September 02, 09:27 AKDT",
+    "title": "267-Tonclonukna Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 06, 12:07 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": null,
-        "Native Allotments": null,
-        "Communities": 63.09297535714574,
-        "Population Count": null,
+        "Alaska Known Sites": 48.55707360068596,
+        "FEMA Structures": 31.02756899342752,
+        "Native Allotments": 52.68025545616606,
+        "Communities": null,
+        "Population Count": 13.029102850519218,
         "Timber Value": null,
         "Critical Infrastructure": null,
         "Major Roads": null,
@@ -32,15 +32,15 @@
             "metric": "$"
         },
         "Native Allotments": {
-            "value": null,
+            "value": 5,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": null,
+            "value": 1.92,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
+            "value": null,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 12,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 1,
+            "value": 16,
             "metric": "structures"
         }
     }
