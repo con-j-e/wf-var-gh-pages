@@ -1,11 +1,11 @@
 {
-    "title": "319-Monte Cristo Creek: Perimeter",
-    "subtitle": "Perimeter Updated: September 19, 15:24 AKDT",
+    "title": "540-Alcan: Reported Location",
+    "subtitle": "Attributes Updated: August 31, 17:21 AKDT",
     "data": {
         "Alaska Known Sites": null,
         "FEMA Structures": null,
         "Native Allotments": null,
-        "Communities": null,
+        "Communities": 100.0,
         "Population Count": null,
         "Timber Value": null,
         "Critical Infrastructure": null,
@@ -40,7 +40,7 @@
             "metric": "people"
         },
         "Communities": {
-            "value": null,
+            "value": 1,
             "metric": "community boundaries"
         },
         "Road Closures": {
