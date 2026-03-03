@@ -2,14 +2,14 @@
     "title": "545-Steelhead: Reported Location + 3 Mile Buffer",
     "subtitle": "Attributes Updated: September 03, 10:59 AKDT",
     "data": {
-        "Alaska Known Sites": 41.23074088487812,
+        "Alaska Known Sites": 37.29305098044167,
         "FEMA Structures": 100.0,
         "Native Allotments": 22.767024869695298,
-        "Communities": 100.0,
+        "Communities": 79.24812503605781,
         "Population Count": 100.0,
         "Timber Value": null,
-        "Critical Infrastructure": 100.0,
-        "Major Roads": 100.0,
+        "Critical Infrastructure": 91.40858965483326,
+        "Major Roads": 97.02537848023098,
         "Road Closures": null
     },
     "raw": {

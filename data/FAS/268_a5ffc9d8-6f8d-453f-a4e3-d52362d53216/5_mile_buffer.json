@@ -1,0 +1,59 @@
+{
+    "title": "268-Aggie Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 08:22 AKDT",
+    "data": {
+        "Alaska Known Sites": 80.8020384256577,
+        "FEMA Structures": 39.868937549799064,
+        "Native Allotments": 19.823986317056054,
+        "Communities": null,
+        "Population Count": 32.34675947945412,
+        "Timber Value": 0.0,
+        "Critical Infrastructure": 64.34287192391261,
+        "Major Roads": 95.85011847671292,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": 84863,
+                "metric": "feet"
+            },
+            {
+                "value": 6,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": 91926,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": 0,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 1,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 13.83,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 26,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 121,
+            "metric": "structures"
+        }
+    }
+}

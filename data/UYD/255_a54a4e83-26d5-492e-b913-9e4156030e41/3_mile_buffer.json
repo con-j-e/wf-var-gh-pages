@@ -1,0 +1,59 @@
+{
+    "title": "255-Christian: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 24, 11:17 AKDT",
+    "data": {
+        "Alaska Known Sites": 39.40539156098827,
+        "FEMA Structures": null,
+        "Native Allotments": 22.767024869695298,
+        "Communities": null,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": null,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 1,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 8,
+            "metric": "structures"
+        }
+    }
+}

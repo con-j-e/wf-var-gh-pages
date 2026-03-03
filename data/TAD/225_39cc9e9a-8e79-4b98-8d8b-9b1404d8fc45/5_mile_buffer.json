@@ -1,0 +1,59 @@
+{
+    "title": "225-Elephant: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 24, 23:23 AKDT",
+    "data": {
+        "Alaska Known Sites": 74.32343140533902,
+        "FEMA Structures": 34.272693240541685,
+        "Native Allotments": null,
+        "Communities": 50.0,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": 84.47568956125953,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": 1,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": 23682,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 16,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 82,
+            "metric": "structures"
+        }
+    }
+}

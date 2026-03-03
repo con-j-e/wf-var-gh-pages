@@ -1,0 +1,59 @@
+{
+    "title": "265-Alligator: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 24, 23:35 AKDT",
+    "data": {
+        "Alaska Known Sites": 86.77359666944831,
+        "FEMA Structures": 55.08714198612783,
+        "Native Allotments": 51.24426124439919,
+        "Communities": 50.0,
+        "Population Count": 39.83676408281788,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": 92.83163336814849,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": 5,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": 64140,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 5,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 26.69,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 94,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 173,
+            "metric": "structures"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "title": "549-Doogan: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 23, 16:34 AKDT",
+    "data": {
+        "Alaska Known Sites": 27.855505897440825,
+        "FEMA Structures": 85.28891456551835,
+        "Native Allotments": 50.0,
+        "Communities": 63.09297535714574,
+        "Population Count": 99.87453796586932,
+        "Timber Value": null,
+        "Critical Infrastructure": 95.23808931349595,
+        "Major Roads": 88.32266160387594,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": 57670,
+                "metric": "feet"
+            },
+            {
+                "value": 6,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": 14234,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 2,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 398.78,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 186,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 3,
+            "metric": "structures"
+        }
+    }
+}

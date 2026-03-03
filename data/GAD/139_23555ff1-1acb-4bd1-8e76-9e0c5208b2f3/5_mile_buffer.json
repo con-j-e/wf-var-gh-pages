@@ -1,0 +1,59 @@
+{
+    "title": "139-Canyon: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 11:36 AKDT",
+    "data": {
+        "Alaska Known Sites": 18.478293816214812,
+        "FEMA Structures": 8.384832981150184,
+        "Native Allotments": 88.40371138971291,
+        "Communities": null,
+        "Population Count": 1.5717042627856268,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": null,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 21,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 0.14,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 1,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 2,
+            "metric": "structures"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "title": "548-Green Tree: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 23, 12:04 AKDT",
+    "data": {
+        "Alaska Known Sites": null,
+        "FEMA Structures": 62.77348338913542,
+        "Native Allotments": null,
+        "Communities": 63.09297535714574,
+        "Population Count": 69.81033676526222,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": 13495,
+                "metric": "feet"
+            },
+            {
+                "value": null,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 64.86,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 46,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": null,
+            "metric": "structures"
+        }
+    }
+}
