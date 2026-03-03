@@ -1,20 +1,21 @@
 {
-    "title": "554-Hope North: Reported Location",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "237-Bear Creek: Perimeter + 1 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 26, 15:36 AKDT",
     "data": {
-        "Alaska Known Sites": null,
-        "FEMA Structures": null,
-        "Native Allotments": null,
-        "Communities": null,
-        "Population Count": null,
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 100.0,
+        "Native Allotments": 100.0,
+        "Communities": 100.0,
+        "Population Count": 100.0,
+        "Timber Value": null,
         "Critical Infrastructure": null,
-        "Major Roads": null,
+        "Major Roads": 100.0,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": null,
+                "value": 182856,
                 "metric": "feet"
             },
             {
@@ -23,31 +24,35 @@
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 50405,
             "metric": "feet"
         },
-        "Native Allotments": {
+        "Timber Value": {
             "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 7,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": null,
+            "value": 72.04,
             "metric": "people"
         },
         "Communities": {
-            "value": null,
-            "metric": "coordinate locations"
+            "value": 1,
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 47,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": null,
+            "value": 144,
             "metric": "structures"
         }
     }

@@ -1,53 +1,58 @@
 {
-    "title": "540-Cantwell 1: Reported Location + 3 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "237-Bear Creek: Perimeter",
+    "subtitle": "Perimeter Updated: September 26, 15:36 AKDT",
     "data": {
         "Alaska Known Sites": 100.0,
         "FEMA Structures": 100.0,
         "Native Allotments": 100.0,
         "Communities": 100.0,
         "Population Count": 100.0,
-        "Critical Infrastructure": 88.90756251918218,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
         "Major Roads": 100.0,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 101019,
+                "value": 82928,
                 "metric": "feet"
             },
             {
-                "value": 5,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 15638,
+            "value": 14776,
             "metric": "feet"
         },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
         "Native Allotments": {
-            "value": 23,
+            "value": 5,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 215.07,
+            "value": 24.86,
             "metric": "people"
         },
         "Communities": {
             "value": 1,
-            "metric": "coordinate locations"
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 125,
+            "value": 9,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 219,
+            "value": 71,
             "metric": "structures"
         }
     }

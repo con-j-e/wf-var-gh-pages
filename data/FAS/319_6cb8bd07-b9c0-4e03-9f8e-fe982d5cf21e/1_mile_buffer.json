@@ -1,53 +1,58 @@
 {
-    "title": "549-Hope Central : Reported Location + 5 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "319-Monte Cristo Creek: Perimeter + 1 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 15:24 AKDT",
     "data": {
-        "Alaska Known Sites": 39.62363149985402,
-        "FEMA Structures": 27.348995084828783,
+        "Alaska Known Sites": null,
+        "FEMA Structures": null,
         "Native Allotments": null,
-        "Communities": 100.0,
-        "Population Count": 78.96846651560672,
-        "Critical Infrastructure": 96.19384545995499,
-        "Major Roads": 90.52799522644456,
+        "Communities": null,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 107137,
+                "value": null,
                 "metric": "feet"
             },
             {
-                "value": 22,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 14721,
+            "value": null,
             "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
         },
         "Native Allotments": {
             "value": null,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 88.43,
+            "value": null,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
-            "metric": "coordinate locations"
+            "value": null,
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 3,
+            "value": null,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 9,
+            "value": null,
             "metric": "structures"
         }
     }

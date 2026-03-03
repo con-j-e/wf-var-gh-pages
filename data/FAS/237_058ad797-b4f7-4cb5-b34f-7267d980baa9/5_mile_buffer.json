@@ -1,53 +1,58 @@
 {
-    "title": "549-Hope Central : Reported Location + 3 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "237-Bear Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 26, 15:36 AKDT",
     "data": {
-        "Alaska Known Sites": 33.21993322360195,
-        "FEMA Structures": 28.66446555001863,
-        "Native Allotments": null,
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 100.0,
+        "Native Allotments": 100.0,
         "Communities": 100.0,
-        "Population Count": 83.58981631345603,
-        "Critical Infrastructure": 98.208195061862,
-        "Major Roads": null,
+        "Population Count": 100.0,
+        "Timber Value": 100.0,
+        "Critical Infrastructure": 100.0,
+        "Major Roads": 100.0,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 66844,
+                "value": 493774,
                 "metric": "feet"
             },
             {
-                "value": 9,
+                "value": 12,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 120323,
             "metric": "feet"
         },
+        "Timber Value": {
+            "value": 129353,
+            "metric": "$"
+        },
         "Native Allotments": {
-            "value": null,
+            "value": 8,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 88.43,
+            "value": 239.23,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
-            "metric": "coordinate locations"
+            "value": 3,
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 3,
+            "value": 188,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 5,
+            "value": 381,
             "metric": "structures"
         }
     }

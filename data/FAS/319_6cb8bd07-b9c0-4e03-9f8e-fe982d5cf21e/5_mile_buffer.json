@@ -1,24 +1,25 @@
 {
-    "title": "545-Hope South: Reported Location + 3 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "319-Monte Cristo Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 15:24 AKDT",
     "data": {
-        "Alaska Known Sites": 36.07794814032545,
-        "FEMA Structures": 28.66446555001863,
+        "Alaska Known Sites": 30.136799180100205,
+        "FEMA Structures": null,
         "Native Allotments": null,
-        "Communities": 100.0,
-        "Population Count": 83.58981631345603,
-        "Critical Infrastructure": 98.208195061862,
+        "Communities": null,
+        "Population Count": null,
+        "Timber Value": 60.92354092089914,
+        "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 66844,
+                "value": null,
                 "metric": "feet"
             },
             {
-                "value": 9,
+                "value": null,
                 "metric": "features"
             }
         ],
@@ -26,28 +27,32 @@
             "value": null,
             "metric": "feet"
         },
+        "Timber Value": {
+            "value": 1300,
+            "metric": "$"
+        },
         "Native Allotments": {
             "value": null,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 88.43,
+            "value": null,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
-            "metric": "coordinate locations"
+            "value": null,
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 3,
+            "value": null,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 6,
+            "value": 5,
             "metric": "structures"
         }
     }

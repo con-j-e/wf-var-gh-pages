@@ -1,30 +1,35 @@
 {
-    "title": "545-Hope South: Reported Location + 1 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "319-Monte Cristo Creek: Perimeter",
+    "subtitle": "Perimeter Updated: September 19, 15:24 AKDT",
     "data": {
         "Alaska Known Sites": null,
         "FEMA Structures": null,
         "Native Allotments": null,
         "Communities": null,
         "Population Count": null,
-        "Critical Infrastructure": 66.66666666666667,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 17140,
+                "value": null,
                 "metric": "feet"
             },
             {
-                "value": 1,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
             "value": null,
             "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
         },
         "Native Allotments": {
             "value": null,
@@ -36,7 +41,7 @@
         },
         "Communities": {
             "value": null,
-            "metric": "coordinate locations"
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,

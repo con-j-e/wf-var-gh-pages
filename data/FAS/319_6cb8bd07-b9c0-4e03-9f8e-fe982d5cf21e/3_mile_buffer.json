@@ -1,24 +1,25 @@
 {
-    "title": "540-Cantwell 1: Reported Location + 1 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "319-Monte Cristo Creek: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 15:24 AKDT",
     "data": {
-        "Alaska Known Sites": 100.0,
-        "FEMA Structures": 100.0,
-        "Native Allotments": 100.0,
+        "Alaska Known Sites": 19.702695780494135,
+        "FEMA Structures": null,
+        "Native Allotments": null,
         "Communities": null,
-        "Population Count": 100.0,
-        "Critical Infrastructure": 61.57547649111447,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
         "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 6351,
+                "value": null,
                 "metric": "feet"
             },
             {
-                "value": 1,
+                "value": null,
                 "metric": "features"
             }
         ],
@@ -26,28 +27,32 @@
             "value": null,
             "metric": "feet"
         },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
         "Native Allotments": {
-            "value": 4,
+            "value": null,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 44.33,
+            "value": null,
             "metric": "people"
         },
         "Communities": {
             "value": null,
-            "metric": "coordinate locations"
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 19,
+            "value": null,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 54,
+            "value": 2,
             "metric": "structures"
         }
     }

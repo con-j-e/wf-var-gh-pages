@@ -1,20 +1,21 @@
 {
-    "title": "554-Hope North: Reported Location + 1 Mile Buffer",
-    "subtitle": "Attributes Updated: February 24, 23:31 AKST",
+    "title": "268-Aggie Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 22, 08:22 AKDT",
     "data": {
-        "Alaska Known Sites": 34.59393808901542,
-        "FEMA Structures": null,
-        "Native Allotments": null,
+        "Alaska Known Sites": 80.8020384256577,
+        "FEMA Structures": 62.876687038411525,
+        "Native Allotments": 31.54648767857287,
         "Communities": null,
-        "Population Count": 81.52943127899628,
-        "Critical Infrastructure": 93.03952200776652,
-        "Major Roads": null,
+        "Population Count": 49.19464629810617,
+        "Timber Value": 0.0,
+        "Critical Infrastructure": 81.21627478021702,
+        "Major Roads": 97.6987978853091,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 8250,
+                "value": 84863,
                 "metric": "feet"
             },
             {
@@ -23,31 +24,35 @@
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 91926,
             "metric": "feet"
         },
+        "Timber Value": {
+            "value": 0,
+            "metric": "$"
+        },
         "Native Allotments": {
-            "value": null,
+            "value": 1,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 21.41,
+            "value": 13.83,
             "metric": "people"
         },
         "Communities": {
             "value": null,
-            "metric": "coordinate locations"
+            "metric": "community boundaries"
         },
         "Road Closures": {
             "value": null,
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 26,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 3,
+            "value": 121,
             "metric": "structures"
         }
     }
