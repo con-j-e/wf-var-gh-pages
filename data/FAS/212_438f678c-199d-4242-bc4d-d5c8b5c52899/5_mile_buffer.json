@@ -1,30 +1,30 @@
 {
-    "title": "545-Steelhead: Reported Location + 5 Mile Buffer",
-    "subtitle": "Attributes Updated: September 03, 10:59 AKDT",
+    "title": "212-Threemile: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:41 AKDT",
     "data": {
-        "Alaska Known Sites": 61.885776169357875,
-        "FEMA Structures": 100.0,
-        "Native Allotments": 20.379504709050618,
-        "Communities": 79.24812503605781,
-        "Population Count": 98.65461403810738,
+        "Alaska Known Sites": 33.35001316657847,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": null,
         "Timber Value": null,
-        "Critical Infrastructure": 100.0,
-        "Major Roads": 98.71928396863517,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 931613,
+                "value": null,
                 "metric": "feet"
             },
             {
-                "value": 50,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 129424,
+            "value": null,
             "metric": "feet"
         },
         "Timber Value": {
@@ -32,15 +32,15 @@
             "metric": "$"
         },
         "Native Allotments": {
-            "value": 1,
+            "value": null,
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 3730.4,
+            "value": null,
             "metric": "people"
         },
         "Communities": {
-            "value": 2,
+            "value": null,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 3891,
+            "value": null,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 36,
+            "value": 6,
             "metric": "structures"
         }
     }
