@@ -1,30 +1,30 @@
 {
-    "title": "195-Quail: Perimeter + 5 Mile Buffer",
-    "subtitle": "Perimeter Updated: September 02, 09:27 AKDT",
+    "title": "545-Steelhead: Reported Location + 1 Mile Buffer",
+    "subtitle": "Attributes Updated: September 03, 10:59 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": null,
+        "Alaska Known Sites": 23.137821315975916,
+        "FEMA Structures": 100.0,
         "Native Allotments": null,
-        "Communities": 63.09297535714574,
-        "Population Count": null,
+        "Communities": 100.0,
+        "Population Count": 100.0,
         "Timber Value": null,
-        "Critical Infrastructure": null,
-        "Major Roads": null,
+        "Critical Infrastructure": 100.0,
+        "Major Roads": 96.92989553374754,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": null,
+                "value": 84633,
                 "metric": "feet"
             },
             {
-                "value": 1,
+                "value": 6,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": null,
+            "value": 12760,
             "metric": "feet"
         },
         "Timber Value": {
@@ -36,11 +36,11 @@
             "metric": "allotments"
         },
         "Population Count": {
-            "value": null,
+            "value": 401.8,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
+            "value": 2,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,7 +48,7 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": null,
+            "value": 460,
             "metric": "structures"
         },
         "Alaska Known Sites": {
