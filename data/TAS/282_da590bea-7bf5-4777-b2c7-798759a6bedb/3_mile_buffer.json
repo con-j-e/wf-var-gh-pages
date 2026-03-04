@@ -1,0 +1,59 @@
+{
+    "title": "282-Lake Mansfield: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 11, 20:09 AKDT",
+    "data": {
+        "Alaska Known Sites": null,
+        "FEMA Structures": null,
+        "Native Allotments": 36.08488067145302,
+        "Communities": 63.09297535714574,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": 81.84962726461293,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": 7155,
+                "metric": "feet"
+            },
+            {
+                "value": null,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": 8970,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 2,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": 1,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": null,
+            "metric": "structures"
+        }
+    }
+}

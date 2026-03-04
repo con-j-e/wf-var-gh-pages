@@ -1,4 +1,13 @@
 {
+    "CRS": {
+        "274-Fish Lake": "274_a7477ee8-0956-4e93-8428-6e7252e3b284"
+    },
+    "GAD": {
+        "316-Bronx": "316_5c5e302f-33df-450b-bc6b-2ffe3be6e535",
+        "317-Ikpikpuk": "317_9326f09c-1905-47b8-a0cd-68acc61ef0ee",
+        "504-Watermelon": "504_75bf60ee-9733-4563-9355-e6eabbd219c4",
+        "505-Knifeblade": "505_2db629f6-a6a5-4997-b6c5-4bdbd2c67ce1"
+    },
     "KKS": {
         "545-Steelhead": "545_058ff385-e458-46e8-8918-25bb17d944dd"
     },
@@ -6,10 +15,17 @@
         "267-Tonclonukna Creek": "267_b8dfe31b-1bbb-4d81-be50-13c70984d14e"
     },
     "TAD": {
+        "153-Chabanika": "153_565da474-66fa-4a6c-a6a6-80c68b3b6e5b",
         "195-Quail": "195_7f191dc9-ecba-45c4-b71f-0a49ab9cff10",
-        "227-Nowitna": "227_27983e04-8cb3-475f-adf3-89b382cbaf7c"
+        "219-Red": "219_a871e713-d7b8-463e-a6dc-269f60ff0041",
+        "227-Nowitna": "227_27983e04-8cb3-475f-adf3-89b382cbaf7c",
+        "321-Ishtalina": "321_d788b0b3-808d-4400-a42c-64e1d825e678",
+        "395-McQuisten": "395_b72a1844-eea9-4c33-9d05-4a5d5147e677"
     },
     "TAS": {
+        "278-Ridgeline": "278_58a121fb-f568-4c09-886a-f6d122b5d565",
+        "281-McArthur Creek": "281_42d42470-23c1-428e-a1a4-ad76a8788dcf",
+        "282-Lake Mansfield": "282_da590bea-7bf5-4777-b2c7-798759a6bedb",
         "540-Alcan": "540_2c036ca1-84b7-4f01-8553-3b6a38915bd2",
         "542-North Gravel Pit": "542_29c3e4be-4038-4454-b0e1-f0f43dd43fa8"
     },
@@ -17,6 +33,7 @@
         "544-6.5 Mile": "544_9e4c0144-d81f-40fa-a032-94742c53ff26"
     },
     "UYD": {
+        "295-Marion": "295_66d2e3f0-6103-40b4-9849-a8f729a15fc4",
         "355-Fortymile": "355_0a0cb034-d2c1-4386-8638-97f0b9b31f7d",
         "500-Forks": "500_1a2029f3-84be-453d-b536-6225849a6f02"
     }
