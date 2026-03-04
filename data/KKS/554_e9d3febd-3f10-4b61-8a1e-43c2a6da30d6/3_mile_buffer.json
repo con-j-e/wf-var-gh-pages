@@ -1,30 +1,30 @@
 {
-    "title": "544-6.5 Mile: Reported Location + 5 Mile Buffer",
-    "subtitle": "Attributes Updated: September 02, 16:13 AKDT",
+    "title": "554-Leisure Lake: Reported Location + 3 Mile Buffer",
+    "subtitle": "Attributes Updated: September 17, 13:21 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": 70.03974099882629,
+        "Alaska Known Sites": 49.27021998307956,
+        "FEMA Structures": 88.72282144069491,
         "Native Allotments": null,
-        "Communities": 50.0,
-        "Population Count": 70.80922467957407,
+        "Communities": 100.0,
+        "Population Count": 95.85216421712713,
         "Timber Value": null,
-        "Critical Infrastructure": null,
-        "Major Roads": 96.40680426945003,
+        "Critical Infrastructure": 90.67340245176354,
+        "Major Roads": 99.93959204476141,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": null,
+                "value": 314661,
                 "metric": "feet"
             },
             {
-                "value": 14,
+                "value": 11,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 98233,
+            "value": 67061,
             "metric": "feet"
         },
         "Timber Value": {
@@ -36,11 +36,11 @@
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 365.19,
+            "value": 1442.14,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
+            "value": 2,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 326,
+            "value": 895,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 1,
+            "value": 11,
             "metric": "structures"
         }
     }

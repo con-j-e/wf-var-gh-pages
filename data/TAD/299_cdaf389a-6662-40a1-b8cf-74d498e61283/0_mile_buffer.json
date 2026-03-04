@@ -1,15 +1,15 @@
 {
-    "title": "544-6.5 Mile: Reported Location + 5 Mile Buffer",
-    "subtitle": "Attributes Updated: September 02, 16:13 AKDT",
+    "title": "299-Ivik: Perimeter",
+    "subtitle": "Perimeter Updated: September 16, 18:14 AKDT",
     "data": {
-        "Alaska Known Sites": 11.879514380082421,
-        "FEMA Structures": 70.03974099882629,
+        "Alaska Known Sites": null,
+        "FEMA Structures": null,
         "Native Allotments": null,
-        "Communities": 50.0,
-        "Population Count": 70.80922467957407,
+        "Communities": null,
+        "Population Count": null,
         "Timber Value": null,
         "Critical Infrastructure": null,
-        "Major Roads": 96.40680426945003,
+        "Major Roads": null,
         "Road Closures": null
     },
     "raw": {
@@ -19,12 +19,12 @@
                 "metric": "feet"
             },
             {
-                "value": 14,
+                "value": null,
                 "metric": "features"
             }
         ],
         "Major Roads": {
-            "value": 98233,
+            "value": null,
             "metric": "feet"
         },
         "Timber Value": {
@@ -36,11 +36,11 @@
             "metric": "allotments"
         },
         "Population Count": {
-            "value": 365.19,
+            "value": null,
             "metric": "people"
         },
         "Communities": {
-            "value": 1,
+            "value": null,
             "metric": "community boundaries"
         },
         "Road Closures": {
@@ -48,11 +48,11 @@
             "metric": "closures"
         },
         "FEMA Structures": {
-            "value": 326,
+            "value": null,
             "metric": "structures"
         },
         "Alaska Known Sites": {
-            "value": 1,
+            "value": null,
             "metric": "structures"
         }
     }
