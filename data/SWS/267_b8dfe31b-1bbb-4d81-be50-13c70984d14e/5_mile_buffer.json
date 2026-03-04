@@ -1,0 +1,59 @@
+{
+    "title": "267-Tonclonukna Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 06, 12:07 AKDT",
+    "data": {
+        "Alaska Known Sites": 48.55707360068596,
+        "FEMA Structures": 31.02756899342752,
+        "Native Allotments": 52.68025545616606,
+        "Communities": null,
+        "Population Count": 13.029102850519218,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": 1,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": 5,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 1.92,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": 12,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 16,
+            "metric": "structures"
+        }
+    }
+}
