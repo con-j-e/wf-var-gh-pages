@@ -2,20 +2,20 @@
     "title": "540-Alcan: Reported Location + 5 Mile Buffer",
     "subtitle": "Attributes Updated: August 31, 17:21 AKDT",
     "data": {
-        "Alaska Known Sites": 44.388067781024034,
-        "FEMA Structures": 36.828847990195925,
-        "Native Allotments": 39.64797263411211,
-        "Communities": 50.0,
-        "Population Count": 46.870015686293094,
+        "Alaska Known Sites": 100.0,
+        "FEMA Structures": 100.0,
+        "Native Allotments": 100.0,
+        "Communities": 100.0,
+        "Population Count": 100.0,
         "Timber Value": null,
-        "Critical Infrastructure": 51.39566441719376,
-        "Major Roads": 86.7304058969302,
+        "Critical Infrastructure": 100.0,
+        "Major Roads": 100.0,
         "Road Closures": null
     },
     "raw": {
         "Critical Infrastructure": [
             {
-                "value": 38165,
+                "value": 38163,
                 "metric": "feet"
             },
             {
@@ -24,7 +24,7 @@
             }
         ],
         "Major Roads": {
-            "value": 30987,
+            "value": 30986,
             "metric": "feet"
         },
         "Timber Value": {
