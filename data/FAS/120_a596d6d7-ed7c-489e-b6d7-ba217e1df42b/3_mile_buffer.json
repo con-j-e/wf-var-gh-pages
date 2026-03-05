@@ -1,0 +1,59 @@
+{
+    "title": "120-McAdams Creek Coal Seam: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:35 AKDT",
+    "data": {
+        "Alaska Known Sites": 21.783059393160816,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 10.388968156887678,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": 1,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 1.2,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 2,
+            "metric": "structures"
+        }
+    }
+}

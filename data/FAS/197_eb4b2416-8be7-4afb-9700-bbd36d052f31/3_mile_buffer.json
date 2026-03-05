@@ -1,0 +1,59 @@
+{
+    "title": "197-Salcha River: Perimeter + 3 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:37 AKDT",
+    "data": {
+        "Alaska Known Sites": 13.743580294959374,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": null,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": null,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": null,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 1,
+            "metric": "structures"
+        }
+    }
+}

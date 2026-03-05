@@ -1,0 +1,59 @@
+{
+    "title": "208-Bonnifield Creek: Perimeter + 5 Mile Buffer",
+    "subtitle": "Perimeter Updated: September 19, 13:38 AKDT",
+    "data": {
+        "Alaska Known Sites": 66.34664233953806,
+        "FEMA Structures": null,
+        "Native Allotments": null,
+        "Communities": null,
+        "Population Count": 18.30528126836256,
+        "Timber Value": null,
+        "Critical Infrastructure": null,
+        "Major Roads": null,
+        "Road Closures": null
+    },
+    "raw": {
+        "Critical Infrastructure": [
+            {
+                "value": null,
+                "metric": "feet"
+            },
+            {
+                "value": 2,
+                "metric": "features"
+            }
+        ],
+        "Major Roads": {
+            "value": null,
+            "metric": "feet"
+        },
+        "Timber Value": {
+            "value": null,
+            "metric": "$"
+        },
+        "Native Allotments": {
+            "value": null,
+            "metric": "allotments"
+        },
+        "Population Count": {
+            "value": 3.6,
+            "metric": "people"
+        },
+        "Communities": {
+            "value": null,
+            "metric": "community boundaries"
+        },
+        "Road Closures": {
+            "value": null,
+            "metric": "closures"
+        },
+        "FEMA Structures": {
+            "value": null,
+            "metric": "structures"
+        },
+        "Alaska Known Sites": {
+            "value": 47,
+            "metric": "structures"
+        }
+    }
+}
